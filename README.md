@@ -43,7 +43,7 @@ This project aims to automatically classify text messages (SMS or emails) as **S
   df.drop(columns=['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], inplace=True)
 
 - After this, the sample of data looks :
-  <img width="720" height="322" alt="image" src="https://github.com/user-attachments/assets/5e702879-9140-4bd0-908c-77716753f830" />
+- <img width="720" height="322" alt="image" src="https://github.com/user-attachments/assets/5e702879-9140-4bd0-908c-77716753f830" />
   
 - Change the column name:
    ```python
