@@ -20,9 +20,10 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 
 https://github.com/user-attachments/assets/5ce5fa4b-b024-44fc-81b9-39085b8ea1a4
 
+
 https://github.com/user-attachments/assets/60eb30f2-69bb-4238-b6d2-fbf1ec7470cf
 
-https://github.com/user-attachments/assets/e84f87fe-2314-4695-9215-ea8527737995
+
 
 ---
 
@@ -133,8 +134,20 @@ https://github.com/user-attachments/assets/e84f87fe-2314-4695-9215-ea8527737995
 
 - Gave a shot to other ensemble techniques:
 <img width="1254" height="327" alt="image" src="https://github.com/user-attachments/assets/e379759d-f5d6-482a-acf4-d68950221b34" />
+
+
 <img width="1250" height="422" alt="image" src="https://github.com/user-attachments/assets/1c923f16-e2b9-45af-b96f-d74b8ced7913" />
 
+
+---
+👨‍💻 Author
+
+Zaid Alam
+Data Analyst & Machine Learning Enthusiast
+📧 [Email Placeholder]
+🌐 [LinkedIn Placeholder]
+
+https://github.com/user-attachments/assets/e84f87fe-2314-4695-9215-ea8527737995
 
 
 
