@@ -145,7 +145,9 @@ https://github.com/user-attachments/assets/60eb30f2-69bb-4238-b6d2-fbf1ec7470cf
 
 Zaid Alam
 _(Data Analyst & Machine Learning Enthusiast)_
+
 📧 zaidalam49@gmail.com
+
 🌐 https://www.linkedin.com/in/zaid-alam98/
 
 
