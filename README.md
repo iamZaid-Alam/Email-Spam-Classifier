@@ -69,10 +69,10 @@ This project aims to automatically classify text messages (SMS or emails) as **S
    df['number_of_sentences'] = df['text'].apply(lambda x : len(nltk.sent_tokenize(x)))
 
 - Describe of new features:
-  <img width="963" height="533" alt="image" src="https://github.com/user-attachments/assets/a78da68f-fbdc-4ad1-a3d3-7d5109b94c88" />
+<img width="963" height="533" alt="image" src="https://github.com/user-attachments/assets/a78da68f-fbdc-4ad1-a3d3-7d5109b94c88" />
 
 - sns.pairplot(df,hue='target') :
-  <img width="640" height="577" alt="image" src="https://github.com/user-attachments/assets/cffac0a7-d52b-42ce-bbfc-7f012c05dc35" />
+<img width="640" height="577" alt="image" src="https://github.com/user-attachments/assets/cffac0a7-d52b-42ce-bbfc-7f012c05dc35" />
  
 
 
