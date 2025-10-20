@@ -34,14 +34,17 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 - Shape of data : (5572, 5)
 - How data looks :
   <img width="1187" height="558" alt="image" src="https://github.com/user-attachments/assets/7c6f5395-b3aa-450f-af9e-3f32b57437b7" />
+  
 - info :
  <img width="569" height="345" alt="image" src="https://github.com/user-attachments/assets/03f93edf-f46a-4826-9df0-49d6b1420e78" />
+ 
 - Columns dropped : ['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4']
   ```python
   df.drop(columns=['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], inplace=True)
 
 - After this, the sample of data looks :
   <img width="720" height="322" alt="image" src="https://github.com/user-attachments/assets/5e702879-9140-4bd0-908c-77716753f830" />
+  
 - Change the column name:
    ```python
   df.rename(columns={'v1':'target','v2':'text'},inplace=True)
@@ -87,6 +90,7 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 
 ✅ Non spam/Ham words : 
 <img width="659" height="640" alt="image" src="https://github.com/user-attachments/assets/b6ed06df-1745-46b2-9ab2-c2c2d23b1f27" />
+
 <img width="508" height="378" alt="image" src="https://github.com/user-attachments/assets/479cb012-609c-45f5-b512-d4a178b3eb30" />
 
 
@@ -101,11 +105,15 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 - In Naive Bayes, MultinomialNB was giving good accuracy and precision.
 - Also tried with others models :
 - <img width="730" height="366" alt="image" src="https://github.com/user-attachments/assets/448dea7e-13b5-478a-ad04-7a533cac0ca0" />
+
 - Models Accuracy and Precision:
 - <img width="554" height="546" alt="image" src="https://github.com/user-attachments/assets/8aa2a64c-7c7c-46e0-9639-77f6eab74fc8" />
+
 <img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/30e50ee4-3d80-4c98-93fc-831de1a55983" />
+
 - Also tried with scaling, max_features=3000, then the final performance df :
 - <img width="1510" height="447" alt="image" src="https://github.com/user-attachments/assets/c9a0fb13-275f-4496-b59b-e08ff27b3736" />
+
 - Gave a shot to other ensemble techniques:
   <img width="1254" height="327" alt="image" src="https://github.com/user-attachments/assets/e379759d-f5d6-482a-acf4-d68950221b34" />
  <img width="1250" height="422" alt="image" src="https://github.com/user-attachments/assets/1c923f16-e2b9-45af-b96f-d74b8ced7913" />
