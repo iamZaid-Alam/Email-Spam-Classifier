@@ -140,14 +140,18 @@ https://github.com/user-attachments/assets/60eb30f2-69bb-4238-b6d2-fbf1ec7470cf
 
 
 ---
+
 👨‍💻 Author
 
 Zaid Alam
-Data Analyst & Machine Learning Enthusiast
-📧 [Email Placeholder]
-🌐 [LinkedIn Placeholder]
+_Data Analyst & Machine Learning Enthusiast_
+📧 zaidalam49@gmail.com
+🌐 https://www.linkedin.com/in/zaid-alam98/
+
 
 https://github.com/user-attachments/assets/e84f87fe-2314-4695-9215-ea8527737995
 
+
+❤️ **Thank you for checking out this project!**
 
 
