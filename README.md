@@ -12,6 +12,20 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 
 ---
 
+📊 Dataset : https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+---
+
+🚀 Demo : 
+
+https://github.com/user-attachments/assets/5ce5fa4b-b024-44fc-81b9-39085b8ea1a4
+
+https://github.com/user-attachments/assets/60eb30f2-69bb-4238-b6d2-fbf1ec7470cf
+
+https://github.com/user-attachments/assets/e84f87fe-2314-4695-9215-ea8527737995
+
+---
+
 ## 🧩 Tech Stack
 
 | Component | Technology |
@@ -51,6 +65,7 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 <img width="699" height="375" alt="image" src="https://github.com/user-attachments/assets/635bde6f-d0f7-4334-9fdc-b1177ea56076" />
 
 - Apply LabelEncoder on Target.
+
 - There are no null values but some duplicated records (around 403 records). Drop them :
   ```python
   df.drop_duplicates(keep='first',inplace=True)
@@ -102,7 +117,9 @@ This project aims to automatically classify text messages (SMS or emails) as **S
    • Bag of Words (BoW)
    • Term Frequency-Inverse Document Frequency (TF-IDF)
    • Word2Vec
+  
 - In Naive Bayes, MultinomialNB was giving good accuracy and precision.
+
 - Also tried with others models :
 - <img width="730" height="366" alt="image" src="https://github.com/user-attachments/assets/448dea7e-13b5-478a-ad04-7a533cac0ca0" />
 
@@ -112,21 +129,12 @@ This project aims to automatically classify text messages (SMS or emails) as **S
 <img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/30e50ee4-3d80-4c98-93fc-831de1a55983" />
 
 - Also tried with scaling, max_features=3000, then the final performance df :
-- <img width="1510" height="447" alt="image" src="https://github.com/user-attachments/assets/c9a0fb13-275f-4496-b59b-e08ff27b3736" />
+<img width="1510" height="447" alt="image" src="https://github.com/user-attachments/assets/c9a0fb13-275f-4496-b59b-e08ff27b3736" />
 
 - Gave a shot to other ensemble techniques:
-  <img width="1254" height="327" alt="image" src="https://github.com/user-attachments/assets/e379759d-f5d6-482a-acf4-d68950221b34" />
- <img width="1250" height="422" alt="image" src="https://github.com/user-attachments/assets/1c923f16-e2b9-45af-b96f-d74b8ced7913" />
+<img width="1254" height="327" alt="image" src="https://github.com/user-attachments/assets/e379759d-f5d6-482a-acf4-d68950221b34" />
+<img width="1250" height="422" alt="image" src="https://github.com/user-attachments/assets/1c923f16-e2b9-45af-b96f-d74b8ced7913" />
 
 
 
-Dataset : https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
-
-
-
-https://github.com/user-attachments/assets/5ce5fa4b-b024-44fc-81b9-39085b8ea1a4
-
-https://github.com/user-attachments/assets/60eb30f2-69bb-4238-b6d2-fbf1ec7470cf
-
-https://github.com/user-attachments/assets/e84f87fe-2314-4695-9215-ea8527737995
 
